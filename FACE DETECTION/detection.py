@@ -55,7 +55,7 @@ while True:
             if result[1] < 500:
                 confidence = int(100 * (1 - (result[1] / 300)))
                 if confidence > 82:
-                    cv2.putText(image, "Pranav", (250, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
+                    cv2.putText(image, "Shantanu", (250, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
                 else:
                     cv2.putText(image, "Unknown", (250, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
             else:
